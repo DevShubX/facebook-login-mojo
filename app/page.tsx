@@ -1,7 +1,7 @@
 'use client'
 import FaceBookLogoutButton from "@/components/FacebookLogoutButton";
 import FaceBookPageInfo from "@/components/FacebookPageInfo";
-import { signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 
 export default function Home() {
 

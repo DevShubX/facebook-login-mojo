@@ -4,8 +4,11 @@ import React, { useEffect, useState } from 'react'
 
 const FaceBookPageInfo = () => {
   const { data: session } = useSession();
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   const [pages, setPages] = useState<any[]>([]);
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   const [selectedPage, setSelectedPage] = useState<any>(null);
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   const [insights, setInsights] = useState<any>([{
     "name": "post_reactions_like_total",
     "period": "lifetime",
