@@ -119,7 +119,7 @@ const FaceBookPageInfo = () => {
 
       {insights && (
         <div className="grid grid-cols-4 gap-4">
-          {insights.map((insight: any) => (
+          {insights.map((insight : any) => (
             <div key={insight.name} className="p-4 border rounded flex flex-col gap-y-2">
               <h3 className='text-xl' >{insight.title}</h3>
               <p className='text-lg'>{insight.values[0].value}</p>
